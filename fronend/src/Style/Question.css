@@ -1,0 +1,116 @@
+.question-area{
+    width: 1000px;
+    padding: 100px 20px;
+    justify-content: flex-start;
+    background-color: #efefef;
+}
+.question{
+    gap: 10px;
+}
+.question-text{
+    max-width: 700px;
+}
+.question h2{
+    font-size: 25px;
+    font-weight: 400;
+    width: 200px;
+}
+.buttons{
+    margin-top: 50px;
+    gap: 20px;
+    justify-content: flex-end;
+}
+.icon-question{
+    --ggs: 2;
+}
+
+.submit{
+    color: white;
+    font-size: 20px;
+    border: 1px solid #ededed;
+    border-radius: 15px;
+    background-color: #7ab3f4;
+    padding: 1px 5px;
+    width: 150px;
+}
+.submit:hover{
+    transform: scale(0.9);
+    cursor: pointer;
+    background-color: #437bbb;
+
+}
+.button:hover{
+    cursor: pointer;
+    transform: scale(1.2);
+}
+.title{
+    justify-content: flex-start;
+}
+.description{
+    justify-content: flex-start;
+}
+.description-text{
+    max-width: 700px;
+}
+.description h3{
+    display: flex;
+    align-items: center;
+}
+#popUp form{
+    gap: 5px;
+}
+#popUp input{
+    border-radius: 15px;
+    background-color: #fafafa;
+    border: 1px solid #ededed;
+    font-size: 20px;
+    padding: 5px;
+    height: 50px;
+    width: 300px;
+}
+#popUp textarea{
+    border-radius: 15px;
+    background-color: #fafafa;
+    border: 1px solid #ededed;
+    padding: 5px;
+    height: 200px;
+    width: 500px;
+}
+.comment-area{
+    width: 700px;
+    margin: auto;    
+}
+.comment-area form{
+    gap: 10px;
+}
+.comment-area textarea{
+    resize: none;
+    background-color: #fafafa;
+    border: 1px solid #ededed;
+    border-radius: 15px;
+    padding: 5px 10px;
+    height: 50px;
+    width: 90%;
+    align-items: center;
+}
+.commentButton{
+    height: 50px;
+    background-color: #3b55d9;
+    align-items: center;
+}
+.comment{
+    justify-content: space-between;
+}
+.oneComment{
+    justify-content: space-between;
+    font-size: 20px;
+    margin: 20px;
+}
+.oneComment h5{
+    text-align: right;
+    font-weight: 400;
+    color: black;
+}
+.close-icon{
+    align-self: flex-end;
+}

@@ -1,0 +1,96 @@
+.homepage-area{
+    width: 65%;
+    align-items: center;
+    background-color: #ffffff;
+    padding: 20px 20px;
+    gap: 50px;
+}
+.question-area-home{
+    width: 100%;
+    align-items: center;
+    gap: 15px;
+}
+.question-card{
+    background-color: white;
+    padding: 20px;
+    border: 1px solid black;
+    display: flex;
+    flex-direction: column;
+    width: 80%;
+    justify-content: space-around;
+    transition: 1s;    
+    border-radius: 10px;
+}
+.title-buzz{
+    font-size: 32px;
+    text-shadow: 2px 4px 4px rgba(0, 0, 0, 0.7);
+    background-color: #a6a6a6;
+    padding: 12px;
+    width: 100%;
+    text-align: center;
+    border-radius: 10px;
+    position: sticky;
+    top: 0;
+    z-index: 100;
+}
+h1{
+    font-size: 20px;
+    border: 1px solid black;
+    border-radius: 10px;
+    padding: 20px;
+}
+
+.question-card h5{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding-top: 10px;
+    
+}
+.question-card:hover{
+    transform: scale(1.1);
+    margin: 10px;
+}
+.profile-img-homePage{
+    display: flex;
+    width: 40px;
+    height: 40px;
+    border: 2px solid #a6a6a6;
+    border-radius: 50%;
+    padding: 2px;
+}
+.user-question-info{
+    gap: 5px;
+    align-items: center;
+    text-decoration: none;
+}
+
+span.question-img img{
+    width: 100%;
+    height: 100%;
+    border-radius: 10px;   
+    padding: 8px; 
+}
+
+.date{
+    display: block;
+    color: #000;
+    text-decoration: none;
+    margin-left: 40px;
+    text-align: start;
+    font-size: 12px;
+}
+@media (max-width: 600px) {
+    .date{
+        font-size: 10px;
+    }
+    .question-card h5{
+     display: flex;
+     flex-direction: column;
+     align-items: center;
+     justify-content: center;
+    }
+    .h1{
+        font-size: 14px;
+    }
+}

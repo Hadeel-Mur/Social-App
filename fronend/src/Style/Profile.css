@@ -1,0 +1,49 @@
+.profile-area{
+    gap: 15px;
+    padding: 50px 30px;
+    background-color: #efefef;
+    display: flex;
+    gap: 2em;
+}
+
+.profile-area h4{
+    font-size: 20px;
+}
+.profile-area h5{
+    font-weight: bold;
+    font-size: 18px;
+    background-color: #F8C633;
+    border-radius: 10px;
+    padding: 6px 10px;
+    
+}
+.profile-area input{
+    padding: 5px 10px;
+    width: 200px;
+    border-radius: 15px;
+    height: 35px;
+}
+.profile-area textarea{
+    padding: 5px 10px;
+    width: 300px;
+    border-radius: 15px;
+    height: auto;
+}
+.profile-item{
+    align-items: center;
+    gap: 15px;
+}
+.profile-item span{
+    margin-left: 15px;
+    font-size: 28px;
+    /* --ggs: 1.1; */
+}
+.profile-img{
+    display: flex;
+    width: 150px;
+    height: 150px;
+}
+.about-me{
+    font-weight: 500;
+    max-width: 80%;
+}

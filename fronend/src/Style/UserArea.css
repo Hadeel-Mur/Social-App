@@ -1,0 +1,45 @@
+.users-area{
+    padding: 20px;
+    gap: 10px;
+    flex: 1;
+    align-items: center;
+    margin-top: 50px;
+    flex: 1;
+    
+}
+@media (max-width: 600px) {
+    .users-area{
+        display: none;
+    }
+}
+.users-area-title h2{
+    display: flex;
+    align-self: center;
+    line-height: 1;
+}
+.users-area-title{
+    margin-bottom: 50px;
+}
+
+.users-area-length{
+   
+    text-align: center;
+    background: -webkit-linear-gradient(#af3535, #333);
+    background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 55px;
+    line-height: 1;
+}
+.profile-img-users{
+    margin-left: 15px;
+    border: 2px solid #a6a6a6;
+    border-radius: 50%;
+    padding: 3px;
+    display: flex;
+    width: 100px;
+    height: 100px;
+}
+
+.profile-img-users:hover{
+    transform: scale(1.1);
+}
